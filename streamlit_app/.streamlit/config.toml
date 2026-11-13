@@ -1,0 +1,21 @@
+# Theme config for running from the repository root (Streamlit Community Cloud: main file streamlit_app/app.py)
+[server]
+headless = true
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+
+[theme.light]
+primaryColor = "#0e7a55"
+backgroundColor = "#f5faf7"
+secondaryBackgroundColor = "#e6f4ec"
+textColor = "#0b1f17"
+font = "sans-serif"
+
+[theme.dark]
+primaryColor = "#3dd598"
+backgroundColor = "#07130e"
+secondaryBackgroundColor = "#0e1d16"
+textColor = "#e8f4ed"
+font = "sans-serif"
