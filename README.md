@@ -7,10 +7,10 @@ An executed Colab notebook, a one-page summary and two dashboards (Next.js and S
 
 | | Link |
 |---|---|
-| Google Colab notebook | {{COLAB_URL}} |
-| Next.js dashboard (Vercel) | {{VERCEL_URL}} |
-| Streamlit dashboard | {{STREAMLIT_URL}} |
-| GitHub repository | {{GITHUB_URL}} |
+| Google Colab notebook | _paste after uploading the notebook (see “Before you submit”)_ |
+| Next.js dashboard (Vercel) | <https://as25dxb018-inventory-control-room.vercel.app> |
+| Streamlit dashboard | _not deployed yet – follow the click-by-click steps under “Deploy”_ |
+| GitHub repository | <https://github.com/krish2105/AS25DXB018-Day4-Inventory-Control-Room> |
 
 > **Data note.** Part A uses a **synthetic** 500-SKU dataset (`np.random.seed(42)`), generated in the notebook following the professor's sample (`Untitled7.ipynb`). Part B parameters (demand, σ, lead time, holding cost) are my **assumptions**, calibrated to the scale of the reference chart on slide 33. Nothing here is real retail data.
 
@@ -119,7 +119,7 @@ Theme: use the ⋮ menu → **System / Light / Dark**. The custom styling follow
 **Streamlit Community Cloud** (cannot be deployed from the CLI):
 1. Open <https://share.streamlit.io> and sign in with GitHub.
 2. Click **Create app** → **Deploy a public app from GitHub**.
-3. Repository: `{{GITHUB_REPO}}` · Branch: `main` · Main file path: `streamlit_app/app.py`.
+3. Repository: `krish2105/AS25DXB018-Day4-Inventory-Control-Room` · Branch: `main` · Main file path: `streamlit_app/app.py`.
 4. Open **Advanced settings** → choose **Python 3.12** (the pinned packages need 3.11+).
 5. Click **Deploy**. The first build takes a few minutes; copy the `…streamlit.app` URL into `AS25DXB018_Links.txt` and the table at the top of this file.
 

@@ -5,6 +5,6 @@ Course: AI in Operations
 Task: Day 4 - Inventory Management and Optimization (Lab Activity + Lab Exercise)
 
 Google Colab Link: <PASTE COLAB LINK HERE> (Sharing: Anyone with the link, Viewer)
-Vercel Deployed URL: <PASTE or live URL>
-Streamlit Deployed URL: <PASTE or live URL>
-GitHub Repo: <PASTE or live URL>
+Vercel Deployed URL: https://as25dxb018-inventory-control-room.vercel.app
+Streamlit Deployed URL: <PASTE or live URL>  (not deployed yet: share.streamlit.io > Create app > repo krish2105/AS25DXB018-Day4-Inventory-Control-Room > branch main > main file streamlit_app/app.py)
+GitHub Repo: https://github.com/krish2105/AS25DXB018-Day4-Inventory-Control-Room
