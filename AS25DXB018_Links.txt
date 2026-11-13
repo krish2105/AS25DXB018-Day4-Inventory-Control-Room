@@ -1,0 +1,10 @@
+Name: Krishna Mathur
+Enrollment ID: AS25DXB018
+Program: MAIB, September 2025
+Course: AI in Operations
+Task: Day 4 - Inventory Management and Optimization (Lab Activity + Lab Exercise)
+
+Google Colab Link: <PASTE COLAB LINK HERE> (Sharing: Anyone with the link, Viewer)
+Vercel Deployed URL: <PASTE or live URL>
+Streamlit Deployed URL: <PASTE or live URL>
+GitHub Repo: <PASTE or live URL>
