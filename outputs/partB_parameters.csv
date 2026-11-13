@@ -1,0 +1,4 @@
+Product,Avg_Demand,Demand_Std,Lead_Time,Holding_Cost,CV_%,Sigma_x_sqrtLT
+A,400,30,3,2.0,7.5,51.96152422706631
+B,250,50,4,1.5,20.0,100.0
+C,150,20,2,2.5,13.333333333333334,28.284271247461902

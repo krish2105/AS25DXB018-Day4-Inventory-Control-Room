@@ -1,0 +1,17 @@
+# environments & build output
+.venv/
+venv/
+build/
+src/
+node_modules/
+.next/
+out/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vercel/
+web/.vercel/
+.env*
+# local archives and OS files
+*.zip
+.DS_Store

@@ -1,0 +1,112 @@
+{
+  "depth": 8,
+  "leaves": 35,
+  "train_n": 350,
+  "test_n": 150,
+  "acc_train": 0.9971428571428571,
+  "acc_test": 0.9066666666666666,
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "confusion": [
+    [
+      27,
+      4,
+      0
+    ],
+    [
+      5,
+      35,
+      3
+    ],
+    [
+      0,
+      2,
+      74
+    ]
+  ],
+  "report": {
+    "A": {
+      "precision": 0.84375,
+      "recall": 0.8709677419354839,
+      "f1-score": 0.8571428571428571,
+      "support": 31.0
+    },
+    "B": {
+      "precision": 0.8536585365853658,
+      "recall": 0.813953488372093,
+      "f1-score": 0.8333333333333334,
+      "support": 43.0
+    },
+    "C": {
+      "precision": 0.961038961038961,
+      "recall": 0.9736842105263158,
+      "f1-score": 0.9673202614379085,
+      "support": 76.0
+    },
+    "accuracy": 0.9066666666666666,
+    "macro avg": {
+      "precision": 0.8861491658747757,
+      "recall": 0.8862018136112976,
+      "f1-score": 0.885932150638033,
+      "support": 150.0
+    },
+    "weighted avg": {
+      "precision": 0.9060168540808784,
+      "recall": 0.9066666666666666,
+      "f1-score": 0.9061406784936196,
+      "support": 150.0
+    }
+  },
+  "importances": [
+    {
+      "feature": "Unit_Cost",
+      "importance": 0.4907202901830484
+    },
+    {
+      "feature": "Annual_Usage",
+      "importance": 0.27344817772252195
+    },
+    {
+      "feature": "Past_Demand",
+      "importance": 0.19492913413361082
+    },
+    {
+      "feature": "Lead_Time",
+      "importance": 0.04090239796081891
+    }
+  ],
+  "depth_cv": [
+    {
+      "max_depth": 2,
+      "CV_accuracy": 0.6886
+    },
+    {
+      "max_depth": 3,
+      "CV_accuracy": 0.7457
+    },
+    {
+      "max_depth": 4,
+      "CV_accuracy": 0.84
+    },
+    {
+      "max_depth": 5,
+      "CV_accuracy": 0.8514
+    },
+    {
+      "max_depth": 6,
+      "CV_accuracy": 0.8571
+    },
+    {
+      "max_depth": 7,
+      "CV_accuracy": 0.86
+    },
+    {
+      "max_depth": 8,
+      "CV_accuracy": 0.8657
+    }
+  ],
+  "cv_folds": 5
+}

@@ -1,0 +1,4 @@
+Metric,Before AI (usage-only rule),After AI (decision tree),Change (pp)
+Accuracy,0.6467,0.9067,26.0
+Macro-F1,0.6104,0.8859,27.5562
+Recall of class A,0.5806,0.871,29.0323

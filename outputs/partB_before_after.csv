@@ -1,0 +1,10 @@
+Policy,Product,Service_Level,Z,Safety_Stock,Holding_Cost,Stockout_Prob_per_Cycle,Units_Short_per_Cycle,Short_%_of_LT_Demand
+Before AI: uniform 95 %,A,0.95,1.6449,85.4691,170.9382,0.05,1.0856,0.0905
+Before AI: uniform 95 %,B,0.95,1.6449,164.4854,246.728,0.05,2.0893,0.2089
+Before AI: uniform 95 %,C,0.95,1.6449,46.5235,116.3087,0.05,0.5909,0.197
+After AI: differentiated,A,0.97,1.8808,97.7289,195.4578,0.03,0.6037,0.0503
+After AI: differentiated,B,0.95,1.6449,164.4854,246.728,0.05,2.0893,0.2089
+After AI: differentiated,C,0.98,2.0537,58.0888,145.222,0.02,0.2077,0.0692
+Reference: uniform 99 %,A,0.99,2.3263,120.8806,241.7612,0.01,0.1761,0.0147
+Reference: uniform 99 %,B,0.99,2.3263,232.6348,348.9522,0.01,0.3389,0.0339
+Reference: uniform 99 %,C,0.99,2.3263,65.7991,164.4976,0.01,0.0958,0.0319

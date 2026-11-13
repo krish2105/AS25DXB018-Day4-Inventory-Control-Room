@@ -1,0 +1,6 @@
+Metric,Before AI (naive: last year),After AI (linear regression),Change
+MAE (units),61.7533,60.6266,-1.1268
+RMSE (units),105.7057,103.4352,-2.2704
+Bias (mean actual - forecast),26.1933,16.8139,-9.3794
+MAPE (%),6.476,7.0287,0.5527
+R2,0.9904,0.9908,0.0004

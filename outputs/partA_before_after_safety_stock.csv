@@ -1,0 +1,8 @@
+Metric,Before AI (flat % of last year),After AI (Z x sigma x sqrt(LT))
+Total buffer (units),125273.0,125273.0
+Buffer value (units x cost),1065506.4284,1068539.89
+Mean achieved service level,0.9458,0.9505
+Lowest item service level,0.8367,0.9438
+Items below 90 % service,55.0,0.0
+Items below 80 % service,0.0,0.0
+Std. dev. of item service level (pp),3.5783,0.0997
