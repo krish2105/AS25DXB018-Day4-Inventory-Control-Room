@@ -4,7 +4,9 @@ Program: MAIB, September 2025
 Course: AI in Operations
 Task: Day 4 - Inventory Management and Optimization (Lab Activity + Lab Exercise)
 
-Google Colab Link: <PASTE COLAB LINK HERE> (Sharing: Anyone with the link, Viewer)
-Vercel Deployed URL: https://as25dxb018-inventory-control-room.vercel.app
-Streamlit Deployed URL: <PASTE or live URL>  (not deployed yet: share.streamlit.io > Create app > repo krish2105/AS25DXB018-Day4-Inventory-Control-Room > branch main > main file streamlit_app/app.py)
+Google Colab Link: https://colab.research.google.com/drive/1gNr8Rn11V3S2_hVwtuodVttys6WtbLJ5?usp=sharing
+(Sharing: Anyone with the link, Viewer)
+
+Deployed URL (Vercel, Next.js dashboard): https://as25dxb018-inventory-control-room.vercel.app
 GitHub Repo: https://github.com/krish2105/AS25DXB018-Day4-Inventory-Control-Room
+Streamlit Deployed URL: not deployed yet

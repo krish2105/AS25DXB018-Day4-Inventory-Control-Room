@@ -7,7 +7,7 @@ An executed Colab notebook, a one-page summary and two dashboards (Next.js and S
 
 | | Link |
 |---|---|
-| Google Colab notebook | _paste after uploading the notebook (see “Before you submit”)_ |
+| Google Colab notebook | <https://colab.research.google.com/drive/1gNr8Rn11V3S2_hVwtuodVttys6WtbLJ5?usp=sharing> |
 | Next.js dashboard (Vercel) | <https://as25dxb018-inventory-control-room.vercel.app> |
 | Streamlit dashboard | _not deployed yet – follow the click-by-click steps under “Deploy”_ |
 | GitHub repository | <https://github.com/krish2105/AS25DXB018-Day4-Inventory-Control-Room> |

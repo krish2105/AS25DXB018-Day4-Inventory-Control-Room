@@ -17,6 +17,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "build", "outputs")
 PDF = os.path.join(ROOT, "build", "AS25DXB018_Krishna_Mathur_Day4_Summary.pdf")
 M = json.load(open(os.path.join(OUT, "metrics.json")))
+COLAB_URL = "https://colab.research.google.com/drive/1gNr8Rn11V3S2_hVwtuodVttys6WtbLJ5?usp=sharing"
+VERCEL_URL = "https://as25dxb018-inventory-control-room.vercel.app"
 
 fdir = os.path.join(os.path.dirname(matplotlib.__file__), "mpl-data", "fonts", "ttf")
 pdfmetrics.registerFont(TTFont("DJ", os.path.join(fdir, "DejaVuSans.ttf")))
@@ -161,7 +163,7 @@ from PIL import Image as PILImage
 w0, h0 = PILImage.open(fig_path).size
 bw = W
 story += [P("PART B – SERVICE-LEVEL TRADE-OFFS (blue = safety stock, green = holding cost; same y-scale)", H),
-          Image(fig_path, width=bw * 0.72, height=bw * 0.72 * h0 / w0), Spacer(1, 2)]
+          Image(fig_path, width=bw * 0.62, height=bw * 0.62 * h0 / w0), Spacer(1, 2)]
 
 # ---------- Part B table ----------
 hdrs = ["Item", "μ / σ / L / h", "SS @80", "SS @90", "SS @95", "SS @99", "HC @95", "HC @99", "Rec. SL", "Why"]
@@ -224,7 +226,8 @@ story += [P("CONCLUSION", H),
             "Variability (linear) is a stronger lever than lead time (√L).", B),
           Spacer(1, 2),
           P("<b>Caveats:</b> Part A data are synthetic (seed 42), so figures illustrate the method only. Part B parameters and the cost tolerance "
-            "are my assumptions; no stock-out cost was available. Demand is assumed normal and independent. Full details: executed notebook.", SM)]
+            "are my assumptions; no stock-out cost was available. Demand is assumed normal and independent. Full details: executed notebook.", SM),
+          P(f"<b>Links:</b> Colab notebook <a href='{COLAB_URL}' color='#0e7a55'>{COLAB_URL}</a> · Live dashboard <a href='{VERCEL_URL}' color='#0e7a55'>{VERCEL_URL}</a>", SM)]
 
 doc.build(story)
 print("built", PDF)
